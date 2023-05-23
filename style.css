@@ -37,12 +37,18 @@ body {
   font-family: 'Sarala', sans-serif;
   color: #FFF2E7;
   font-weight: 400;
-  font-size: 18px
+  font-size: 18px;
+  
+
+}
+.cabecalho-menu-item:hover{
+  color:#DABEA0 ;
+  transition: all  0.5s ease;
 }
 
 .conteudo {
   margin-bottom: 48px;
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid #DABEA0;
 }
 
 .conteudo-principal {
@@ -74,20 +80,23 @@ body {
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: #ECD6C4;
+  cursor: pointer;
+  background-color: #333238;
   width: 180px;
   height: 60px;
   border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 5px 4px rgba(8, 8, 8, 0.25);
   border-radius: 20px;
   font-family: 'Sarala', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 24px;
-  color: #2F2325;
+  color: #B58B56;
+  transition: all 0.5s ease-in-out;
 }
 
 .conteudo-principal-escrito-botao:hover {
-  background-color: rgba(236, 214, 196, 0.53);
+  background-color:#B58B56;
+  color: #333238;
 }
 
 .conteudo-principal-imagem {
@@ -110,7 +119,7 @@ body {
   font-family: 'PT Serif', serif;
   font-weight: 400;
   font-size: 24px;
-  color: #FFF2EF;
+  color: #E9BD89;
   margin-bottom: 16px;
 }
 
@@ -126,7 +135,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
     padding: 32px;
     gap: 10px;
-    border-top: 0.4px solid #FFF2E7;
+    border-top: 0.4px solid #DABEA0;
     font-family: 'Sarala', sans-serif;
     font-size: 15px;
     text-align: center;
@@ -138,7 +147,7 @@ body {
 }
 
 .rodape-imagem {
-  height: 48px;
+  height: 100px;
   display: block;
   margin: 0 auto;
 }
@@ -152,7 +161,7 @@ body {
   }
   
   .cabecalho-imagem {
-    height: 25px;
+    height:50px;
    
   }
   
@@ -165,7 +174,7 @@ body {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
-    font-size: 18px
+    font-size: 0.9em;
   }
   .conteudo {
  
@@ -211,8 +220,11 @@ body {
     color: #FFF2E7;
   }
   .rodape-imagem {
-    height: 50px;
+    height: 70px;
     display: block;
     margin: 0 auto;
+}
+.rodape{
+  font-size: 0.7em;
 }
 }
